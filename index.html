@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" sizes="32" href="./img/favicon.png">
+    <title>Book Store</title>
+    <!-- link to CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+ 
+    <div class="wrapper">
+        <header class="header">
+            <!-- navbar -->
+            <nav class="nav container">
+                <!-- logo -->
+                <a class="logo" href="#!">Book Store</a>
+                <i class='bx bx-shopping-bag' id="cart-icon" data-quantity="0"></i>
+                <!-- shop cart -->
+                <div class="cart">
+                    <h2 class="cart__title">Your Cart</h2>
+                    <div class="cart-content"></div>
+                    <!-- total -->
+                    <div class="cart-total">
+                        <div class="cart-total__title">Total</div>
+                        <div class="cart-total__price">$0</div>
+                    </div>
+                    <button class="cart__button-buy" type="button">Pay Now</button>
+                    <i class='bx bx-x' id="cart-close"></i>
+                </div>
+            </nav>
+        </header>
+        
+        <main class="main">
+            <!-- Products -->
+            <section class="shop container">
+                <h2 class="shop__title">Shop Products</h2>
+                <!-- shop content -->
+                <div class="shop-content">
+                    <!-- shop item 1 -->
+                    <div class="shop-content-item">
+                        <img class="shop-content-item__image" src="img/product1.jpeg" alt="product-img1">
+                        <h3 class="shop-content-item__title">player's book</h3>
+                        <span class="shop-content-item__price">$17.20</span>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                    <!-- shop item 2 -->
+                    <div class="shop-content-item">
+                        <img class="shop-content-item__image" src="img/product2.jpeg" alt="product-img1">
+                        <h3 class="shop-content-item__title">keeper's book</h3>
+                        <span class="shop-content-item__price">$19.32</span>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                    <!-- shop item 3 -->    
+                    <div class="shop-content-item">
+                        <img class="shop-content-item__image" src="img/product3.jpeg" alt="product-img1">
+                        <h3 class="shop-content-item__title">witcher</h3>
+                        <span class="shop-content-item__price">$5.69</span>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                    <!-- shop item 4 -->
+                    <div class="shop-content-item">
+                        <img class="shop-content-item__image" src="img/product4.jpeg" alt="product-img1">
+                        <h3 class="shop-content-item__title">the right things</h3>
+                        <span class="shop-content-item__price">$9.46</span>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                    <!-- shop item 5 -->
+                    <div class="shop-content-item">
+                        <img class="shop-content-item__image" src="img/product5.jpeg" alt="product-img1">
+                        <h3 class="shop-content-item__title">Harry Potter</h3>
+                        <span class="shop-content-item__price">$14.12</span>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                    <!-- shop item 6 -->
+                    <div class="shop-content-item">
+                        <img class="shop-content-item__image" src="img/product6.jpeg" alt="product-img1">
+                        <h3 class="shop-content-item__title">Harry Potter</h3>
+                        <span class="shop-content-item__price">$12.15</span>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                    <!-- shop item 7 -->
+                    <div class="shop-content-item">
+                        <img class="shop-content-item__image" src="img/product7.jpeg" alt="product-img1">
+                        <h3 class="shop-content-item__title">novels and stories</h3>
+                        <span class="shop-content-item__price">$23.55</span>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                    <!-- shop item 8 -->
+                    <div class="shop-content-item">
+                        <img class="shop-content-item__image" src="img/product8.jpeg" alt="product-img1">
+                        <h3 class="shop-content-item__title">War and Peace</h3>
+                        <span class="shop-content-item__price">$10.8</span>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <div class="footer-copyright container">
+                <p class="footer-copyright__text">Copyright © 2008 - 2023.
+                    <p class="footer-copyright__text" >All rights reserved.</p>
+                </p>
+            </div>
+        </footer>
+    </div>
+    <!-- link to JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
